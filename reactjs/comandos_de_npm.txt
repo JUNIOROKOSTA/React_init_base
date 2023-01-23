@@ -1,0 +1,22 @@
+=-> Configuração do eslint e prettier:
+// Necessário ter os arquivos no pasta padrão
+// (.eslintrc.js , .prettierrc.js) com as configurações.
+
+npm i -D eslint
+npm i -D prettier
+
+npm i -D prettier eslint-plugin-prettier
+npm i -D prettier eslint-config-prettier
+
+-----------------------------------------------------------
+
+=-> Comando verifica erros nos arquivos .jsx e .js
+
+npx eslint src/**/*.js --fix
+npx eslint src/**/*.jsx --fix
+
+-----------------------------------------------------------
+
+=-> PropTypes
+
+npm install -D prop-types
